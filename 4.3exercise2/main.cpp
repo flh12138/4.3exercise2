@@ -7,6 +7,7 @@ int main()
 {
 	cv::Mat dstMat;
 	cv::Mat srcMat = cv::imread("E:\\PIC\\lena.jpg",1);
+
 	if (srcMat.empty())return -1;
 
 	float angle = -10.0, scale = 1;
